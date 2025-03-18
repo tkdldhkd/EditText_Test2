@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
         String str =eText.getText().toString();
         String str2 =eText2.getText().toString();
         String str3 =eText3.getText().toString();
-        eTextView.setText(str);
-        eTextView2.setText(str2);
-        eTextView3.setText(str3);
+        eTextView.setText("아이디 " + str);
+        eTextView2.setText("비밀번호 " + str2);
+        eTextView3.setText("전화번호 " + str3);
 
     }
 }
